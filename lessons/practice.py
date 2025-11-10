@@ -62,7 +62,7 @@ for i in range(1, 6, ):
 #print(evens)
 #print(odds)
 
-alphabt = 'abcdefghijklmnopqrstuvwxyz'
-vowel = 'aeiou'
-not_vowel = 'bcdfghjklmnpqrstvwxyz'
+#alphabt = 'abcdefghijklmnopqrstuvwxyz'
+#vowel = 'aeiou'
+#not_vowel = 'bcdfghjklmnpqrstvwxyz'
 
