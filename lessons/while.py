@@ -106,3 +106,24 @@
 #
 #print(average)
 
+while True:
+    password1 = input("Введите пароль: ")
+    password2 = input("Повторите пароль: ")
+
+    if len(password1) < 8:
+        print("Короткий! Попробуйте снова.")
+    elif "123" in password1:
+        print("Простой! Попробуйте снова.")
+    elif password1 != password2:
+        print("Различаются. Попробуйте снова.")
+    else:
+        print("OK")
+        break
+
+
+while True:
+    n = int(input())
+    if n % 10 != 0:
+        break
+    print(n)
+ 

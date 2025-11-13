@@ -1,7 +1,7 @@
-# x = 10
-# while x > 0:
-#    print('Counter: ' + str(x))
-#    x -= 1
+# num = 10
+# while num > 0:
+#    print('Counter: ' + str(num))
+#    num -= 1
 #
 # print('Vse koncheno!')
 
@@ -21,18 +21,18 @@
 #        print('You write an even number , bro!')
 #        break
 
-#number = input('Vvedite chislo: ')
+#enter_number = input('Vvedite chislo: ')
 #random_num = 54
 #lives = 3
-#while number.isnumeric():
+#while enter_number.isnumeric():
 #
-#    if int(number) == random_num:
+#    if int(enter_number) == random_num:
 #        print('You win! Congrats from Bill Jigsaw!')
 #        break
 #    else:
 #        lives -= 1
 #        print('Ne pravilno ! U vas ostalos ' + str(lives) + ' popitok')
-#        number = input('Vvedite chislo: ')
+#        enter_number = input('Vvedite chislo: ')
 #    if lives == 0:
 #        print('U vas ne ostalos popitok. Igra zakonchena!')
 #        break
@@ -44,8 +44,8 @@
 #for i in range(20, 10, -2):
 #    print('Counter: ' + str(i))
 
-#num = int(input('Vvedite chislo: '))
-#for i in range(num):
+#enter_number2 = int(input('Vvedite chislo: '))
+#for i in range(enter_number2):
 #    print('Number: ' + str(i))
 
 #total = 0
@@ -65,10 +65,10 @@
 #======================================================================
 #first_num = int(input('Vvedite pervoe chislo: '))
 #last_num = int(input('Vvedite poslednee chislo: '))
-#sum = 0
+#summ = 0
 #for i in range(first_num, last_num):
-#    sum += i
-#print('Summa chisel ot ' + str(first_num) + ' do ' + str(last_num) + ' ravna: ' + str(sum))
+#    summ += i
+#print('Summa chisel ot ' + str(first_num) + ' do ' + str(last_num) + ' ravna: ' + str(summ))
 #======================================================================
 
 #======================================================================
