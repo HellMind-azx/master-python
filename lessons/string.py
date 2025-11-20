@@ -55,3 +55,56 @@
 #    pool2 += text[i]
 #print(pool2 + pool)
 
+# ==================================
+# ========= SLICE ==================
+# ==================================
+
+# ================================
+# FIRST SOLUTION =================
+# ================================
+#text = input()
+
+#if len(text) == 2:
+#    print(text)
+#
+#first_three_letters = text[0:3]
+#last_three_letters = text[-3:]
+#
+#print(first_three_letters)
+#print(last_three_letters)
+
+# ================================
+# SECOND SOLUTION ================
+# ================================
+#if len(text) == 0:
+#    print('Empty string')
+#if len(text) == 2:
+#    print(text)
+#else:
+#    first_three_letters = text[0:3]
+#    last_three_letters = text[-3:]
+#    print(first_three_letters)
+#    print(last_three_letters)
+
+# ==================================
+# ========= INDEX ==================
+# ==================================
+
+s = 'Hello World'
+#f = s.index('l')
+#second = s.index('l', f + 1)
+#third = s.index('l', second + 1)
+#print(f)
+#print(second)
+#print(third)
+#print(s.find('qwerty'))
+
+text = input()
+count = 0
+digits = ""
+
+for element in text:
+    count += text.isnumeric()
+    if element == digits:
+        print(None)
+print(count)
