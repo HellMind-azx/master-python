@@ -45,4 +45,84 @@
 #    total += i * 2
 #print(total)
 
+#n = int(input())
+#m = int(input())
+#for i in range(n, 31, m):
+#    print(i)
+
+#sec = int(input())
+#for i in range(sec, -1, -1):
+#    print('Осталось секунд:', i)
+#print('Пуск')
+
+#h = int(input())
+#
+#for i in range(1, h + 1):
+#    print(' ' * (h - i) + '*' * (2 * i - 1))
+
+
+#n = int(input())
+#found = False
+#
+#for i in range(n):
+#    line = input()
+#    if "Кот" in line or "кот" in line:
+#        found = True
+#
+#if found:
+#    print("МЯУ")
+#else:
+#    print("НЕТ")
+
+#line_number = 0
+#found = -1
+#
+#while True:
+#    line = input()
+#    line_number += 1
+#
+#    if line == "СТОП":
+#        break
+#
+#    if "Кот" in line or "кот" in line:
+#        found = line_number
+#        break
+#
+#print(found)
+
+
+#total = 0
+#count = 0
+#
+#while True:
+#    n = int(input())
+#    total += n
+#    count += 1
+#
+#    if n == 0:
+#        break
+#    if total == 10:
+#        break
+#print(count)
+    
+
+#while True:
+#    n = int(input())
+#
+#    if n == 0:         
+#        break
+#
+#    if n % 3 == 0 and n % 7 == 0:
+#        print("Караул!")
+#        break
+#
+#    if n % 3 == 0:
+#        print("несчастливое")
+#        continue
+#
+#    if n % 7 == 0:
+#        print("опасное")
+#        continue
+
+
 

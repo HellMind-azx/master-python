@@ -24,6 +24,13 @@ numbers = [1, 2, 3, 4, 5, 6, 7]
 #print(max_num)
 #print(min_num)
 
-word = 'Hello Word'
-time = ''
+# ================================
+# ========== TUPLE ===============
+# ================================
 
+t = ('apple', 'banana', 'orange', 'strawberry')
+  
+l = list(t)
+l.append('pineapple')
+t = tuple(l)
+print('Tuple:', t)
