@@ -89,3 +89,61 @@
 #    print(i, '*', number, '=' , result)
 ##======================================================================
 
+# ===================================================
+# ==============  NESTED LOOPS  =====================
+# ===================================================
+
+#n = int(input())  # ввод числа от 2 до 8
+#
+#for i in range(1, n + 1):         # внешний цикл — номер строки
+#    for j in range(i):            # внутренний цикл — повторяем i раз
+#        print(i, end='')          # выводим номер строки без переноса
+#    print()                        # после внутреннего цикла перевод строки
+
+# ===================================================
+
+#n = int(input())  # ввод размера таблицы
+#
+#for i in range(1, n + 1):         # строки
+#    for j in range(1, n + 1):     # столбцы
+#        print(i * j, end='\t')    # выводим результат с табуляцией
+#    print()                       # переход на новую строку после каждого ряда
+
+#n = int(input())
+#for i in range(1, n + 1):
+#    for j in range(i):
+#        print(i , end='')
+
+#N = int(input())
+#
+#current = 1  
+#
+#for i in range(1, N + 1):       
+#    for j in range(i):
+#        if current > N:
+#            break
+#        print(current, end=' ')
+#        current += 1
+#    print()
+
+
+#roads = int(input())
+#
+#best_height = 0
+#best_road = 0
+#
+#for road_num in range(1, roads + 1):
+#    tunnels_count = int(input())
+#    min_height = float('inf') 
+#
+#    for _ in range(tunnels_count):
+#        h = int(input())
+#        if h < min_height:
+#            min_height = h  
+#
+#    if min_height > best_height:
+#        best_height = min_height
+#        best_road = road_num
+#
+#print(best_road, best_height)
+
