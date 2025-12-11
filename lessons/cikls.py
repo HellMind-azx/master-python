@@ -147,3 +147,81 @@
 #
 #print(best_road, best_height)
 
+#num = int(input())
+#for i in range(1, num + 1):
+#    for j in range(1, num + 1):
+#        print(f'{i} * {j} = {i * j}')
+
+#cols = int(input())
+#rows = int(input())
+#
+#for r in range(1, rows + 1):
+#    for c in range(1, cols + 1):
+#        print(c / r, end=' ')
+#    print()
+
+#n = int(input())
+#
+#result = 0
+#
+#for i in range(1, n + 1):
+#    # находим сумму чисел той же чётности
+#    s = 0
+#    for k in range(1, i + 1):
+#        if k % 2 == i % 2:  # чётное к чётному, нечётное к нечётному
+#            s += k
+#
+#    result += i ** s  # прибавляем i^s
+#
+#print(result)
+
+#height = int(input())  
+#width = int(input())
+#symb = input()        
+#
+#for i in range(height):
+#    if i == 0 or i == height - 1:        
+#        print(symb * width)
+#    else:                          
+#        print(symb + " " * (width - 2) + symb)
+
+#n = int(input())  
+#for i in range(n - 1, -1, -1):
+#    print(f'Осталось секунд: {i}')
+#    for j in range(i - 1, -1, -1):
+#        print(f'Осталось секунд: {i}')
+
+#n = int(input())  
+#
+#for i in range(1, n + 1):
+#    count = i - 1  
+#    for t in range(count, -1, -1):
+#        print(f"Осталось секунд: {t}")
+#
+#    print(f"Пуск {i}")
+
+#n = int(input())
+#
+#for num in range(2, n):
+#    is_prime = True
+#    for d in range(2, int(num ** 0.5) + 1):
+#        if num % d == 0:
+#            is_prime = False
+#            break
+#    if is_prime:
+#        print(num)
+
+#n = int(input())
+#m = int(input())
+#
+#for i in range(n):
+#    for j in range(m):
+#        if i % 2 == 0:  
+#            num = i * m + (j + 1)
+#        else:
+#            num = i * m + (m - j)
+#
+#        print(num, end="\t")
+#    print()
+#
+
